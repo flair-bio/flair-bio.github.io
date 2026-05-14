@@ -1,11 +1,14 @@
 ---
 layout: post
 title: A Guide on Statistical Tests
-description: Make your findings statistically significant with this partical, flowchart-based guide on selecting the right statistical test and post-hoc analysis.
+description: Make your findings statistically significant with this practical, flowchart-based guide on selecting the right statistical test and post-hoc analysis.
 tags: Statistics
 date: 2025-09-15
 thumbnail: assets/img/posts/stats.png
 related_posts: false
+authors:
+  - name: Naga Karthik Enamundram
+    url: https://scholar.google.com/citations?user=ZryIoMMAAAAJ
 ---
 
 **Author**: [Naga Karthik Enamundram](https://scholar.google.com/citations?user=ZryIoMMAAAAJ) (edited with LLMs)
@@ -14,7 +17,7 @@ Too often, I see tables in ML papers where authors claim that their method is "s
 
 Here's a flowchart on the most common types of tests depending on the type of the output variable followed by the series of tests to consider.
 
-{% include figure.liquid path="assets/img/posts/stats1.svg" class="img-fluid rounded z-depth-1 center" width=600 zoomable=true %}
+{% include figure.liquid path="assets/img/posts/stats1.png" class="img-fluid rounded z-depth-1 center" width=600 zoomable=true %}
 
 ### Definitions
 

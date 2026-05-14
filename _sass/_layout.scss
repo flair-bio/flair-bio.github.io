@@ -6,6 +6,7 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: 'Noto Sans', sans-serif;
 
   h1,
   h2,
@@ -14,7 +15,31 @@ body {
   h5,
   h6 {
     scroll-margin-top: 66px;
+    font-family: 'Noto Sans', sans-serif;
   }
+}
+
+.navbar,
+.navbar-brand,
+.nav-link,
+.footer,
+footer,
+.card-title,
+.profile,
+.badge,
+button,
+input,
+select,
+textarea,
+label,
+.btn {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+code,
+pre,
+.highlight {
+  font-family: 'Noto Sans Mono', monospace;
 }
 
 body.fixed-top-nav {
@@ -25,6 +50,18 @@ body.fixed-top-nav {
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
+  // Push footer to the bottom of the viewport on short pages.
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  > [role='main'] {
+    flex: 1 0 auto;
+  }
+
+  > footer {
+    flex-shrink: 0;
+  }
 }
 
 .container {

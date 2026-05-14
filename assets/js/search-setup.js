@@ -1,17 +1,24 @@
-let searchTheme = determineComputedTheme();
 const ninjaKeys = document.querySelector("ninja-keys");
 
-if (searchTheme === "dark") {
-  ninjaKeys.classList.add("dark");
-} else {
-  ninjaKeys.classList.remove("dark");
+if (ninjaKeys && typeof determineComputedTheme === "function") {
+  if (determineComputedTheme() === "dark") {
+    ninjaKeys.classList.add("dark");
+  } else {
+    ninjaKeys.classList.remove("dark");
+  }
 }
 
-const openSearchModal = () => {
-  // collapse navbarNav if expanded on mobile
-  const $navbarNav = $("#navbarNav");
-  if ($navbarNav.hasClass("show")) {
-    $navbarNav.collapse("hide");
+window.openSearchModal = () => {
+  const modal = document.querySelector("ninja-keys");
+  if (!modal) return;
+  const navbarNav = document.getElementById("navbarNav");
+  if (navbarNav && navbarNav.classList.contains("show") && window.jQuery) {
+    window.jQuery(navbarNav).collapse("hide");
   }
-  ninjaKeys.open();
+  modal.open();
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("search-toggle");
+  if (btn) btn.addEventListener("click", window.openSearchModal);
+});

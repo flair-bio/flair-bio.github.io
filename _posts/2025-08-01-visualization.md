@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Beautiful Plots with Matplotlib
-description: At their best, graphics are instruments for reasoning about quantitative information. Discover simple, aesthetic examples of common plot types using Matplotlib and Seaborn.  
+description: At their best, graphics are instruments for reasoning about quantitative information. Discover simple, aesthetic examples of common plot types using Matplotlib and Seaborn.
 tags: Visualization
 date: 2025-08-01
-thumbnail: assets/img/posts/visualization.jpg
+thumbnail: assets/img/posts/visualization.png
 related_posts: false
+authors:
+  - name: Quentin Fournier
+    url: https://scholar.google.com/citations?user=I0M6-KsAAAAJ
 ---
 
 **Author**: [Quentin Fournier](https://scholar.google.com/citations?user=I0M6-KsAAAAJ) (edited with LLMs)

@@ -1,33 +1,77 @@
 ---
-layout: about
+layout: page
 title: Home
 permalink: /
-subtitle: 
-
-profile:
-  align: right
-  image: profile.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: 
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+description: ""
+nav: true
+nav_order: 0
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 5
 ---
 
-Hey, thanks for stopping by! 👋
+<style>
+.post > .post-header { display: none; }
+.home-hero { padding: 1rem 0 1.5rem; margin-bottom: 1.25rem; position: relative; overflow: hidden; min-height: 320px; }
+.home-eyebrow { font-size: var(--text-sm); font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--flair-purple); margin: 0 0 1rem; position: relative; z-index: 1; }
+.home-display { font-size: 2.15rem; font-weight: 600; line-height: 1.15; color: var(--flair-near-black) !important; margin: 0 0 1rem; max-width: 22ch; letter-spacing: -0.01em; position: relative; z-index: 1; }
+.home-display em { color: var(--flair-purple); font-style: normal; }
+.home-support { font-size: 1.05rem; line-height: 1.55; color: var(--flair-near-black); margin: 0; max-width: 56ch; opacity: 0.85; position: relative; z-index: 1; }
+.home-body { font-size: 1rem; line-height: 1.55; color: var(--flair-near-black); margin: 0 0 0.5rem; }
+.home-secondary { font-size: var(--text-sm); font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--flair-purple); margin: 2rem 0 0.75rem; display: block; }
 
-I’m a Research Fellow at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en), where I’m leading a thematic lab on language models for drug discovery.
+.home-decoration {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: none;
+  pointer-events: none;
+  z-index: 0;
+  width: 100%;
+  font-family: 'Noto Sans Mono', 'SF Mono', monospace;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--flair-purple);
+  opacity: 0.18;
+  letter-spacing: 0.12em;
+  white-space: pre-wrap;
+  word-break: normal;
+  text-align: right;
+  overflow: hidden;
+  padding: 0.5rem 0;
+  -webkit-mask-image: linear-gradient(60deg, transparent 0%, transparent 55%, black 92%, black 100%);
+          mask-image: linear-gradient(60deg, transparent 0%, transparent 55%, black 92%, black 100%);
+}
 
-As a scientist, I'm broadly interested in machine learning. I'm currently focusing on understanding how to adapt all aspects of the LLM pipeline, from data processing and pre-training to alignment and evaluation, to the unique characteristics of biological data such as genomes, proteins, and small molecules.
+@media (max-width: 576px) { .home-display { font-size: 1.7rem; } }
+@media (max-width: 768px) { .home-decoration { display: none; } }
+</style>
 
-Previously, I completed my PhD in ML from Polytechnique Montréal, where I was advised by [Daniel Aloise](https://scholar.google.com/citations?user=loo53dkAAAAJ&hl=pt-BR) and [Michel R. Dagenais](https://scholar.google.ca/citations?user=ges3OQQAAAAJ&hl=en) on language models for detecting anomalies in the Linux kernel. Later, I completed a postdoc with [Sarath Chandar](https://scholar.google.com/citations?user=yxWtZLAAAAAJ&hl=en) at the University of Montreal.
+<div class="home-hero">
+  <p class="home-eyebrow">FLAIR Lab · Mila &amp; Université de Montréal</p>
+  <h2 class="home-display">Machine learning for the <em>language of life</em>.</h2>
+  <p class="home-support">We develop methods across the language modeling pipeline for biological sequences such as proteins, genomes, and transcriptomes, with applications in drug discovery.</p>
+  <div class="home-decoration" aria-hidden="true">KRDDVYTLDEELPKRVKSRLSKASDMRFDGIFEDKEAIQQSKRQRVINSRYRGDYIEPVIYRAIME
+FLDSGYDYKKCIGLKVKPRRGDGLLFYSLFPNGTIDRTSLHGSCPVIKGEKWVATKWIRDQEQHED
+AIFQFGGLQRSDPLQRLLLEHGDVVVWGGESRLFYHGIQPLKAGHHPETGDCRYNLTFRQAGSRQY
+SFSSGGENPHGVKAVTKGQRCAVALWFTLDPLYRELERIQADEVIAMLDQEHLGPSEMNINPKDEL
+NLEQYPEYAQAKPLQCTVKAGEMLYLPSLWFHHVQQSHGCIAVNYWYDMEYDLKYSYYQLLDCLTK
+WRLYKPTVHLAREYNVESEDRIGNPTHEFILKPGDLLYFPRGTIHQADTPLGVSYSTHVTISTYQN
+PDFGAAIWPKKGTAVFWYNLFRSGEGDYRTRHAACPVLVGCKWVSNKWFHERGNEFLRPCGRTEVD
+KSLAFFLCPKGDKVVSPPSELVDDLTPRIYPDFTWPMLLEFTQKHYRADMKTLEAFTNWLLQRKMS
+RHRHGARATTSGNRVNLLLWCRSSVFREMKLYQKDFSSWCGECNREKKERQRSTVAATKLVCSFII
+FFNPALDARLPLIELPAELAAQARGVTKDPSNPIHALYGENALKSRLRAHPDVAAIHHADLVGTPA
+DDTAMELTFRLEPGEAFVVDNTRVLHARKGYSGEGTRWLQGCYADKDGLRSAHDAMCREGVLEAAE
+</div>
+</div>
+
+<div class="home-news">
+  <span class="home-secondary">Recent news</span>
+  {% include news.liquid limit=true %}
+</div>
+
+<span class="home-secondary">Open positions</span>
+<p class="home-body">We are recruiting one PhD student and one graduate or undergraduate intern. <a href="/contact/">Get in touch</a>.</p>

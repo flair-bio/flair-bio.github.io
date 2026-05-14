@@ -1,34 +1,130 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Coauthor links, maps last names to first-name variants and profile URLs.
+# Used by Jekyll Scholar to hyperlink author names in the bibliography.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"fournier":
+  - firstname: ["Quentin"]
+    url: https://scholar.google.ca/citations?user=I0M6-KsAAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"chandar":
+  - firstname: ["Sarath"]
+    url: https://scholar.google.com/citations?user=yxWtZLAAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bengio":
+  - firstname: ["Yoshua"]
+    url: https://scholar.google.com/citations?user=kukA0LcAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"vernon":
+  - firstname: ["Robert M", "Robert M."]
+    url: https://scholar.google.com/citations?user=wJhlTNwAAAAJ
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"langmead":
+  - firstname: ["Christopher James", "Christopher J."]
+    url: https://scholar.google.com/citations?user=Dj3gptkAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"aloise":
+  - firstname: ["Daniel"]
+    url: https://scholar.google.com/citations?user=loo53dkAAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"dagenais":
+  - firstname: ["Michel R", "Michel R.", "Michel"]
+    url: https://scholar.google.ca/citations?user=ges3OQQAAAAJ
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"chitsaz":
+  - firstname: ["Kamran"]
+    url: https://scholar.google.ca/citations?user=cdDoOYQAAAAJ
+
+"balaji":
+  - firstname: ["Roshan"]
+    url: https://scholar.google.ca/citations?user=OwZoKXgAAAAJ
+
+"bhatt":
+  - firstname: ["Nirav", "Nirav Pravinbhai"]
+    url: https://scholar.google.ca/citations?user=b6dXpnAAAAAJ
+
+"thakkar":
+  - firstname: ["Megh"]
+    url: https://scholar.google.ca/citations?user=a0MuBt4AAAAJ
+
+"prato":
+  - firstname: ["Gabriele"]
+    url: https://scholar.google.ca/citations?user=9D_y8ssAAAAJ
+
+"abbes":
+  - firstname: ["Istabrak"]
+    url: https://scholar.google.ca/citations?user=Uvo1CKAAAAAJ
+
+"baldelli":
+  - firstname: ["Davide"]
+    url: https://scholar.google.ca/citations?user=PTOykNQAAAAJ
+
+"zouaq":
+  - firstname: ["Amal"]
+    url: https://scholar.google.ca/citations?user=lqDGv9YAAAAJ
+
+"das":
+  - firstname: ["Payel"]
+    url: https://scholar.google.ca/citations?user=1vs31MgAAAAJ
+
+"chen":
+  - firstname: ["Pin-Yu"]
+    url: https://scholar.google.ca/citations?user=jxwlCUUAAAAJ
+
+"riemer":
+  - firstname: ["Matthew"]
+    url: https://scholar.google.ca/citations?user=PK7UzAwAAAAJ
+
+"baratin":
+  - firstname: ["Aristide"]
+    url: https://scholar.google.ca/citations?user=ZK7OfxkAAAAJ
+
+"morris":
+  - firstname: ["John X.", "John X", "John Xavier"]
+    url: https://scholar.google.ca/citations?user=Utsbve4AAAAJ
+
+"mezouar":
+  - firstname: ["Mariam"]
+    url: https://scholar.google.ca/citations?user=1fZifg0AAAAJ
+
+"sloot":
+  - firstname: ["Almer"]
+    url: https://scholar.google.ca/citations?user=IP20cIoAAAAJ
+
+"mordido":
+  - firstname: ["Goncalo"]
+    url: https://scholar.google.com/citations?user=ZK7OfxkAAAAJ
+
+"patil":
+  - firstname: ["Darshan"]
+    url: https://scholar.google.ca/citations?user=X3HJD0AAAAAJ
+
+"hashemzadeh":
+  - firstname: ["Maryam"]
+    url: https://scholar.google.ca/citations?user=3h6myHkAAAAJ
+
+"govindarajan":
+  - firstname: ["Prashant"]
+    url: https://scholar.google.ca/citations?user=r3XLLrEAAAAJ
+
+"breton":
+  - firstname: ["Lola Le"]
+    url: https://scholar.google.ca/citations?user=a0LAsHoAAAAJ
+
+"caron":
+  - firstname: ["Gaétan Marceau", "Gaetan Marceau"]
+    url: https://scholar.google.ca/citations?user=sSOL4egAAAAJ
+
+"costa":
+  - firstname: ["Leandro R", "Leandro R.", "Leandro"]
+    url: https://scholar.google.ca/citations?user=qJkwU9UAAAAJ
+
+"heurtel-depeiges":
+  - firstname: ["David"]
+    url: https://scholar.google.ca/citations?user=FD7jQIQAAAAJ
+
+"malviya":
+  - firstname: ["Pranshu"]
+    url: https://scholar.google.com/citations?user=VET8VMcAAAAJ
+
+"reymond":
+  - firstname: ["Mathieu"]
+    url: https://scholar.google.com/citations?user=b9bYrHUAAAAJ
