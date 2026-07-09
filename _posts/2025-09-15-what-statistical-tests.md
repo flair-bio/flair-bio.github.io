@@ -27,7 +27,7 @@ Here's a flowchart on the most common types of tests depending on the type of th
   - Performance metrics such as the F1-score, MSE; values whose range lies between 0-1. 
   - Features such as a person's height, average temperature, etc. 
 
-- **Categorical variables**: Think groups or labeled buckets. Categorical variables only take on a limited set of values, assigning each data point to a particular group. There are two types of variables: (i) **Nominal**: categories have _no_ intrinsic order (e.g. car, bus, plane), and (ii) **Ordinal**: categories have a meaniningful order (e.g. rating something as `good`, `okay`, `bad`, or, levels of difficulty, etc.). A few examples of categorial variables:
+- **Categorical variables**: Think groups or labeled buckets. Categorical variables only take on a limited set of values, assigning each data point to a particular group. There are two types of variables: (i) **Nominal**: categories have _no_ intrinsic order (e.g. car, bus, plane), and (ii) **Ordinal**: categories have a meaningful order (e.g. rating something as `good`, `okay`, `bad`, or, levels of difficulty, etc.). A few examples of categorical variables:
   - Model prediction as `Spam`/`Not spam`, or, classification of a bacterium as `Resistant`/`Susceptible` against a specific antibiotic.
   - Features such as grading of a tumor on a scale of 1-4 (note: this is ordinal), or, a person's blood type (A, B, AB, O; note: this is nominal). 
 

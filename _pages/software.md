@@ -11,7 +11,7 @@ nav_order: 4
 
   <div class="sw-card sw-card-placeholder">
     <div class="sw-card-header">
-      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace"/>
+      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face"/>
       <span class="sw-badge sw-badge-model">Model</span>
     </div>
     <h3 class="sw-card-title">AMPLIFY</h3>
@@ -25,7 +25,7 @@ nav_order: 4
 
   <div class="sw-card sw-card-placeholder">
     <div class="sw-card-header">
-      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace"/>
+      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face"/>
       <span class="sw-badge sw-badge-model">Model</span>
     </div>
     <h3 class="sw-card-title">SaAMPLIFY</h3>
@@ -39,7 +39,7 @@ nav_order: 4
 
   <div class="sw-card sw-card-placeholder">
     <div class="sw-card-header">
-      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace"/>
+      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face"/>
       <span class="sw-badge sw-badge-model">Model</span>
     </div>
     <h3 class="sw-card-title">AMPLIFY-C</h3>
@@ -53,7 +53,7 @@ nav_order: 4
 
   <div class="sw-card sw-card-placeholder">
     <div class="sw-card-header">
-      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace"/>
+      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face"/>
       <span class="sw-badge sw-badge-dataset">Dataset</span>
     </div>
     <h3 class="sw-card-title">AMPLIFY Dataset</h3>
@@ -68,7 +68,7 @@ nav_order: 4
 
   <div class="sw-card sw-card-placeholder">
     <div class="sw-card-header">
-      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace"/>
+      <img class="sw-logo" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face"/>
       <span class="sw-badge sw-badge-dataset">Dataset</span>
     </div>
     <h3 class="sw-card-title">Metagenomic Dataset</h3>
@@ -93,7 +93,7 @@ nav_order: 4
     <div class="sw-tags">
       <span class="sw-tag">Python</span>
       <span class="sw-tag">PyTorch</span>
-      <span class="sw-tag">HuggingFace</span>
+      <span class="sw-tag">Hugging Face</span>
     </div>
     <a class="sw-link sw-link-soon" href="#">Coming soon</a>
   </div>
