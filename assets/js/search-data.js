@@ -60,7 +60,10 @@ ninja.data = [{
           section: "News",},{id: "news-proud-of-lola-le-breton-who-presented-neobert-a-next-generation-bert-at-iclr-2026-as-part-of-the-tmlr-journal-track-with-john-x-morris-mariam-el-mezouar-and-sarath-chandar",
           title: 'Proud of Lola Le Breton, who presented NeoBERT: A Next Generation BERT at...',
           description: "",
-          section: "News",},{id: "news-new-on-the-blog-a-guide-to-scientific-writing-the-advice-i-wish-i-had-before-my-first-paper-learned-from-the-writers-and-scientists-who-showed-me-what-good-looks-like",
-          title: 'New on the blog: A Guide to Scientific Writing. The advice I wish...',
+          section: "News",},{id: "news-new-preprint-a-systematic-analysis-of-machine-learning-pipelines-for-robust-antimicrobial-resistance-prediction-we-identify-what-design-choices-matter-for-genomic-antimicrobial-resistance-prediction-with-alex-aselstyne-enamundram-naga-karthik-meriem-el-azami-romain-pogorelcnik-and-sarath-chandar-in-collaboration-with-biomérieux",
+          title: 'New preprint: A systematic analysis of machine learning pipelines for robust antimicrobial resistance...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-high-resolution-dissection-of-concept-acquisition-in-different-families-of-protein-language-models-we-map-where-biological-concepts-emerge-in-esm2-and-amplify-from-physicochemical-properties-to-structure-and-find-that-data-and-compute-matter-more-than-model-size-with-shawn-t-whitfield-tom-marty-robert-m-vernon-christopher-james-langmead-and-dhanya-sridhar-in-collaboration-with-amgen",
+          title: 'New preprint: High-resolution dissection of concept acquisition in different families of protein language...',
           description: "",
           section: "News",},];
