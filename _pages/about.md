@@ -74,4 +74,4 @@ DDTAMELTFRLEPGEAFVVDNTRVLHARKGYSGEGTRWLQGCYADKDGLRSAHDAMCREGVLEAAE
 </div>
 
 <span class="home-secondary">Open positions</span>
-<p class="home-body">We are recruiting one PhD student and one graduate or undergraduate intern. <a href="/contact/">Get in touch</a>.</p>
+<p class="home-body">We are recruiting one PhD student. <a href="/contact/">Get in touch</a>.</p>

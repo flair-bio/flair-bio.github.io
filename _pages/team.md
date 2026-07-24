@@ -55,7 +55,7 @@ nav_order: 5
 
   <a class="person-card-open" href="mailto:quentin.fournier@mila.quebec">
     <span class="open-icon">＋</span>
-    <span>Open PhD &amp; Intern positions</span>
+    <span>Open PhD position</span>
   </a>
 
 </div>
@@ -107,4 +107,3 @@ nav_order: 5
   </div>
 
 </div>
-
