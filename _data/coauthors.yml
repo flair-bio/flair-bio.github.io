@@ -5,6 +5,22 @@
   - firstname: ["Quentin"]
     url: https://scholar.google.ca/citations?user=I0M6-KsAAAAJ
 
+"whitfield":
+  - firstname: ["Shawn T", "Shawn T.", "Shawn"]
+    url: https://scholar.google.com/citations?user=rmIM9uEAAAAJ&hl=en
+
+"marty":
+  - firstname: ["Tom"]
+    url: https://scholar.google.com/citations?hl=en&user=-YXor_wAAAAJ
+
+"sridhar":
+  - firstname: ["Dhanya"]
+    url: https://scholar.google.com/citations?user=agbUL90AAAAJ&hl=en
+
+"karthik":
+  - firstname: ["Enamundram Naga"]
+    url: https://scholar.google.com/citations?hl=en&user=ZryIoMMAAAAJ
+
 "chandar":
   - firstname: ["Sarath"]
     url: https://scholar.google.com/citations?user=yxWtZLAAAAAJ
