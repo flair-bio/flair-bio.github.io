@@ -74,4 +74,5 @@ DDTAMELTFRLEPGEAFVVDNTRVLHARKGYSGEGTRWLQGCYADKDGLRSAHDAMCREGVLEAAE
 </div>
 
 <span class="home-secondary">Open positions</span>
-<p class="home-body">We are recruiting one PhD student. <a href="/contact/">Get in touch</a>.</p>
+{% comment %}<p class="home-body">We are recruiting one PhD student. <a href="/contact/">Get in touch</a>.</p>{% endcomment %}
+<p class="home-body">We are not accepting new students or interns at this time.</p>

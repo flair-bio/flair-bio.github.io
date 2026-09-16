@@ -53,10 +53,12 @@ nav_order: 5
     </div>
   </div>
 
+  {% comment %}
   <a class="person-card-open" href="mailto:quentin.fournier@mila.quebec">
     <span class="open-icon">＋</span>
     <span>Open PhD position</span>
   </a>
+  {% endcomment %}
 
 </div>
 

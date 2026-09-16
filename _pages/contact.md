@@ -15,7 +15,11 @@ The best way to reach me is by email at [quentin.fournier@mila.quebec](mailto:qu
 
 ## Joining the lab
 
+{% comment %}
 I am recruiting PhD students and MSc and undergraduate interns on a rolling basis to work on protein language models, biological sequence modeling, and AI for drug discovery. A strong background in machine learning is required, and experience in computational biology is a plus. If you are interested in joining, please email me your CV, a brief summary of your research interests, and your transcripts.
+{% endcomment %}
+
+I am not accepting new students or interns at this time. When positions open, I recruit PhD students and MSc and undergraduate interns to work on protein language models, biological sequence modeling, and AI for drug discovery. A strong background in machine learning is required, and experience in computational biology is a plus.
 
 ## Collaborations
 
